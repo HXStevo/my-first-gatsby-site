@@ -132,7 +132,10 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— Airparks - Ihr Spezialist für Parken am Flughafen!</span>
       </h1>
 <p style={paragraphStyles}>
-   Airparks</p>
+Günstige Flughafen-Parkplätze an deutschen und europäischen Flughäfen.
+Seit 2005 Ihr kompetenter Partner mit mehr als einer Million zufriedener Kunden.
+Hohe Sicherheitsstandards sowie ein zuverlässiger Service.
+Ein kostenloser Transfer zwischen Parkgelände und Flughafen-Terminal.</p>
 
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
