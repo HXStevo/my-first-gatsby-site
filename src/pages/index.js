@@ -129,8 +129,11 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉 wahoo hello 111</span>
+        <span style={headingAccentStyles}>— Airparks - Ihr Spezialist für Parken am Flughafen!</span>
       </h1>
+<p style={paragraphStyles}>
+   Airparks</p>
+
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
