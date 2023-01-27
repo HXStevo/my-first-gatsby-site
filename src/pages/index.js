@@ -129,7 +129,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>— 11111Airparks - Ihr Spezialist für Parken am Flughafen!</span>
+        <span style={headingAccentStyles}>— 2222222Airparks - Ihr Spezialist für Parken am Flughafen!</span>
       </h1>
 <p style={paragraphStyles}>
 Günstige Flughafen-Parkplätze an deutschen und europäischen Flughäfen.
