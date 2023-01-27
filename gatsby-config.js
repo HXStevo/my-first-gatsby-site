@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `My First Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://airparks-de.cdn.prismic.io/api/v2`,
   },
   plugins: [],
 }
