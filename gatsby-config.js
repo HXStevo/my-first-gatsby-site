@@ -8,10 +8,7 @@ module.exports = {
       resolve: `gatsby-source-prismic`,
       options: {
         repositoryName: `airparks-de`,
-        accessToken: `${process.env.API_KEY}`,
-        linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
-        schemas: {
-          post: require("./custom_types/post.json"),
+
         },
       },
     },
