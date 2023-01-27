@@ -8,7 +8,7 @@ module.exports = {
       resolve: `gatsby-source-prismic`,
       options: {
         repositoryName: `myfirstgatsbysitemain97955`,
-        accessToken: `${process.env.API_KEY}`,
+        accessToken: `${process.env.MC5ZOU9lSWhJQUFDSUFhVTBi.77-9WHMMEO-_ve-_ve-_vTXvv73vv73vv73vv73vv73vv73vv71_77-977-9Ne-_ve-_vTZP77-9Iu-_vXfvv73vv73vv73vv70}`,
         linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
         schemas: {
           post: require("./custom_types/post.json"),
