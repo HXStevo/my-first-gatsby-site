@@ -1,14 +1,10 @@
-
-
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-source-prismic`,
-      options: {
-        repositoryName: `airparks-de`,
-
-        },
-      },
-    },
-  ],
+  siteMetadata: {
+    title: `My First Gatsby Site`,
+    siteUrl: `https://www.yourdomain.tld`,
+  },
+  plugins: [],
 }
