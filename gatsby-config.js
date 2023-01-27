@@ -1,10 +1,19 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
-  siteMetadata: {
-    title: `My Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`,
-  },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-prismic`,
+      options: {
+        repositoryName: `your-repository-name`,
+        accessToken: `${process.env.API_KEY}`,
+        linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
+        schemas: {
+          post: require("./custom_types/post.json"),
+        },
+      },
+    },
+  ],
 }
