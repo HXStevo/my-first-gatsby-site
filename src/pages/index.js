@@ -129,14 +129,8 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>— 22222223Airparks - Ihr Spezialist für Parken am Flughafen!</span>
+        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
-<p style={paragraphStyles}>
-Günstige Flughafen-Parkplätze an deutschen und europäischen Flughäfen.
-Seit 2005 Ihr kompetenter Partner mit mehr als einer Million zufriedener Kunden.
-Hohe Sicherheitsstandards sowie ein zuverlässiger Service.
-Ein kostenloser Transfer zwischen Parkgelände und Flughafen-Terminal.</p>
-
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
