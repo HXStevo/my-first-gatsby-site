@@ -3,7 +3,6 @@
  *
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
-
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
