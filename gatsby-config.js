@@ -1,18 +1,33 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-
-
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-module.exports = {
-  siteMetadata: {
-    title: `My First Gatsby Site`,
-    siteUrl: `https://www.yourdomain.tld`,
+const routes = [
+  {
+    type: "article",
+    path: "/articles/:uid",
   },
-  plugins: [],
+  {
+    type: "page",
+    path: "/:uid",
+  },
+];
+
+module.exports = {
+  plugins: [
+    // ...
+    'gatsby-plugin-image',
+    {
+      resolve: 'gatsby-source-prismic',
+      options: {
+        repositoryName: process.env.GATSBY_PRISMIC_REPO_NAME,
+        accessToken: process.env.PRISMIC_ACCESS_TOKEN,
+        customTypesApiToken: process.env.PRISMIC_CUSTOM_TYPES_API_TOKEN,
+        routes,
+      },
+    },
+  ] 
 }
-
-
